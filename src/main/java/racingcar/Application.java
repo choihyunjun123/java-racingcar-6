@@ -30,7 +30,6 @@ public class Application {
             ResultView.printWinners(winners);
 
         } catch (IllegalArgumentException e) {
-            // 예외 메시지 출력 후 프로그램 종료(별도 System.exit() 호출 X)
             System.out.println(e.getMessage());
         }
     }
